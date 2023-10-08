@@ -24,7 +24,18 @@ export default function Home() {
       <p>
         <Link href='/docs/any'>any</Link>
       </p>
-      <button onClick={handleClick}>Place Order</button>
+      <p>
+        <button onClick={handleClick}>Place Order</button>
+      </p>
+
+      <h1>Next JS pre-rendering</h1>
+
+      <p>
+        <Link href='/users'>Users</Link>
+      </p>
+      <p>
+        <Link href='/posts'>Posts</Link>
+      </p>
     </>
   )
 }
