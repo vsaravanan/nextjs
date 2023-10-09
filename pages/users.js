@@ -17,6 +17,8 @@ function UserList({ users }) {
 
 export default UserList
 
+export const delay = ms => new Promise(res => setTimeout(res, ms))
+
 export async function getStaticProps() {
   const response = await fetch('https://jsonplaceholder.typicode.com/users')
   const data = await response.json()

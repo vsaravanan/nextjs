@@ -36,6 +36,12 @@ export default function Home() {
       <p>
         <Link href='/posts'>Posts</Link>
       </p>
+      <p>
+        <Link href='/dashboard'>dashboard</Link>
+      </p>
+      <p>
+        <Link href='/dashboard-swr'>dashboard-swr</Link>
+      </p>
     </>
   )
 }
