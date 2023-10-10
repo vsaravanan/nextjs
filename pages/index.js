@@ -13,6 +13,9 @@ export default function Home() {
     <>
       <h1>Welcome Home</h1>
       <p>
+        <Link href='/alert'>Alert</Link>
+      </p>
+      <p>
         <Link href='/blog'>Blog</Link>
       </p>
       <p>
