@@ -16,6 +16,9 @@ export default function Home() {
         <Link href='/alert'>Alert</Link>
       </p>
       <p>
+        <Link href='/todolist'>TodoList</Link>
+      </p>
+      <p>
         <Link href='/blog'>Blog</Link>
       </p>
       <p>
